@@ -1,0 +1,93 @@
+html,
+body {
+    padding: 1%;
+    text-align: justify;
+    background-color: #d2d38b;
+}
+
+.hyde{
+    display: none;
+}
+
+.title{
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #8a1000;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.figDesc{
+    text-align: center;
+    font-family: verdana;
+    font-size: 105%;
+}
+
+#ita{
+   color: #014d1b;
+}
+
+#deu{
+    color: #b80217;
+}
+
+#fra{
+    color: #250075;
+}
+
+#eng{
+    color: #e35b00;
+}
+
+#text1,
+.firma{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+}
+
+#text2{
+    text-align: center;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+#indirizzo1,
+#indirizzo2{
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+   font-size: 20px;
+}
+
+#garibaldi,
+#tuffo{
+    text-align: center;
+    font-family: courier;
+    letter-spacing: 1px;
+}
+
+
+img{
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#imgFronte1{
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+#imgRetro2{
+    margin-left: 70px;
+    margin-bottom: 130px;
+}
+
+#imgFronte2{
+    width: 450px;
+    margin-left: 50px;
+}

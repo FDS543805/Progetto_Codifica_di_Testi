@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "CartolineFDS.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt1">
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="main">Capanna nella pineta</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="FD"><forename>Francesco</forename><surname>De Sanctis</surname></name>
+                </respStmt>
+                  <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name xml:id="CP">Collezione privata</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt xml:id="editionStmt1">
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                 <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#FD">Francesco De Sanctis</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="notesStmt1">
+                <note n="1.1">Possiamo affermare con certezza che era presente un francobollo, poi successivamente rimosso.</note>
+                <note n="1.2">Su internet non esistono sufficienti informazioni per risalire al nome completo dell'editore "A. Migliardi"</note>
+                <note n="1.3">Sul retro della cartolina c'è un piccolo marchio che riporta la dicitura "Rotalfoto Milano", nota compagnia editoriale di cartoline postali</note>
+            </notesStmt>
+            <sourceDesc xml:id="sourceDesc1">
+                <bibl>
+                    <title type="custom" resp="#FD" xml:id="title1">Capanna nella pineta</title>
+                    <publisher xml:id="AM">A. Migliardi</publisher>
+                    <pubPlace>Ravenna</pubPlace>
+                </bibl>
+                 <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Vicopisano (PI)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Abitazione privata</repository>
+                    </msIdentifier>
+                      <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang mainLang="it-IT" otherLangs="en de fr">
+                                    Testo principale in italiano, con una parte tradotta in inglese, francese e tedesco
+                        </textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>10</height>
+                                        <width>15</width>
+                                    </dimensions>
+                                    <stamp>rimosso ma sicuramente presente in passato</stamp>
+                                </support>
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="B">
+                        <persName>
+                            <forename>Bruno</forename>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                     <person xml:id="MT">
+                        <persName>
+                            <forename>Maura</forename>
+                            <surname>Tocchini</surname>
+                            <note>barista del "bar sport" citato nell'indirizzo destinatario</note>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="GG">
+                        <persName>
+                            <forename>Giuseppe</forename>
+                            <surname>Garibaldi</surname>
+                            <note>non viene citato nella parte scritta a penna, bensì nella parte stampata</note>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                </listPerson>
+                <!-- LUOGHI -->
+                <listPlace>
+                    <place xml:id="RV">
+                        <placeName>Ravenna</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Ravenna</district>
+                        <district type="provincia">RV</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="LU">
+                        <placeName>Lucca</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Lucca</district>
+                        <district type="provincia">LU</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="AL">
+                        <placeName>Altopascio</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Altopascio</district>
+                        <district type="provincia" ref="#LU">LU</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#B"><forename>Bruno</forename></persName>
+                    <placeName ref="#RV">Ravenna</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#MT">
+                        <forename>Maura</forename>
+                        <surname>Tocchini</surname>
+                    </persName>
+                    <placeName ref="#AL">Altopascio</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                    <term>Capanna nella pineta</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">codifica in italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="Cartolina1">
+         <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte1">
+            <cb n="1"/>
+                <figure>
+                <graphic url="cartoline/cartolina3-1.jpg"/>
+                    <figDesc> L'immagine rappresenta un piccolo rifugio fatto di mattoni con il tetto in paglia,
+                              situato in una pineta. Sulla parte anteriore del rifugio sono affisse delle targhe 
+                              commemorative in pietra ed il numero civico "129".
+                              Nella parte bassa dell'immagine c'è un testo descrittivo in bianco che riporta
+                              "Ravenna - Capanna nella pineta ove si rifugiò G.Garibaldi nel 1849"
+                    </figDesc>
+                    <head>
+                        <title xml:id="titolo1">Capanna nella pineta</title>
+                    </head>
+                </figure>
+            </div>
+            <div type="retro" xml:id="retro1">
+                <div xml:id="stampa1">
+                    <!-- parte in alto -->
+                    <lb/>
+                    <p>
+                    <s>
+                      <settlement type="city" ref="#RV">RAVENNA</settlement>
+                    </s>
+                    </p>
+                    <lb/>
+                    <p>
+                    <s>Capanna nella pineta ove si rifugiò 
+                        <persName type="person" ref="#GG" role="war general">
+                            <choice>
+                                <abbr> G.</abbr>
+                                <expan>Giuseppe</expan>
+                            </choice>Ga<pc>-</pc><lb/>ribaldi
+                        </persName> nel
+                        <date>1849</date>
+                    </s>
+                    </p>
+                    <lb/>
+                    <p>
+                    <s>The Hut in the pine-tree wood where 
+                        <persName type="person" ref="#GG" role="war general">
+                            <choice>
+                                <abbr> G.</abbr>
+                                <expan>Giuseppe</expan>
+                            </choice><lb/>Garibaldi
+                        </persName> took refuge in the year 
+                        <date>1849</date>
+                    </s>
+                    </p>
+                    <lb/>
+                    <p>
+                    <s>La Cabane dans la for&#234;t des pins où
+                        <persName type="person" ref="#GG" role="war general">
+                            <choice>
+                                <abbr> G.</abbr>
+                                <expan>Giuseppe</expan>
+                            </choice><lb/>Garibaldi 
+                        </persName>se refugea dans l'année 
+                        <date>1849</date>
+                    </s>
+                    </p>
+                    <lb/>
+                    <p>
+                    <s>Die Huette im Tannenwald in welcher sich
+                        <lb/>
+                        <persName type="person" ref="#GG" role="war general">
+                            <choice>
+                                <abbr> G.</abbr>
+                                <expan>Giuseppe</expan>
+                            </choice>Garibaldi
+                        </persName> im Jahr 
+                        <date>1849</date>in fluechtete   
+                    </s>
+                    </p>
+                </div>
+                    <!-- PARTE SCRITTA A MANO -->
+                    <div type="message" xml:id="messaggio1">
+                        <p>
+                        <s><lb/>i miei<lb/>più affettuosi<lb/>saluti da chi<lb/>sempre ti ricorda
+                        </s>
+                        </p>
+                        <lb/>
+                        <p>
+                        <s>
+                            <choice>
+                                <sic>appresto</sic>
+                                <corr>a presto</corr>
+                            </choice>
+                        </s>
+                        </p>
+                    </div>
+                    <div type="signature">
+                        <signed>
+                            <persName type="person" ref="#B">Bruno</persName>
+                        </signed>
+                    </div>
+                    <!-- PARTE IN BASSO -->
+                    <div>
+                        <lb/>
+                        <p>
+                        <s>
+                            <idno>5828</idno>
+                        </s>
+                        </p>
+                        <lb/>
+                        <p>
+                        <s>
+                            <choice>
+                                <abbr>Ed</abbr>
+                                <expan>Edizioni</expan>
+                            </choice>
+                            <persName type="person" ref="#AM" role="publisher">Migliardi A.</persName>    
+                            <pc>-</pc>
+                            <settlement type="city" ref="#RV">Ravenna</settlement>
+                        </s>
+                        </p>
+                        <lb/>
+                        <p>
+                        <s>
+                        Riproduzione vietata
+                        </s>
+                        </p>
+                    </div>
+                    <cb n="2"/>
+                    <div type="destination">
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned>
+                                <unclear reason="illegible">RAVENNA</unclear>
+                            </mentioned>   
+                        </stamp>
+                    </p>
+                    <!-- INDIRIZZO -->
+                    <p xml:id="indirizzo1">
+                        <address>
+                            <lb/><addrLine>Alla signorina</addrLine>
+                            <lb/><addrLine><persName ref="#MT">Maura Tocchini</persName></addrLine>
+                            <lb/><addrLine>presso bar sport</addrLine>
+                            <lb/><addrLine>presso monumento</addrLine>
+                            <lb/><addrLine><placeName ref="#AL">Altopascio</placeName></addrLine>
+                            <lb/><addrLine><placeName ref="#LU">Lucca</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

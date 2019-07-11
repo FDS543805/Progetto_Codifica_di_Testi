@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "CartolineFDS.dtd">
+<?xml-stylesheet type="text/xsl" href="Codifica/style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt2">
+                <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+                <title type="main">Tuffo dallo scoglio</title>
+                <!-- TRASCRITTORE nome e cognome-->
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name xml:id="FD"><forename>Francesco</forename><surname>De Sanctis</surname></name>
+                </respStmt>
+                  <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name xml:id="CP">Collezione privata</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt xml:id="editionStmt2">
+                <edition>Studenti di Codifica di Testi, Corso di Laurea Magistrale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date>2019</date>
+                </edition>
+                 <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Encoding by</resp>
+                    <name ref="#FD">Francesco De Sanctis</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            <!-- NOTE NB: mettere qui tutto ciò che non rientra nella codifica -->
+            <notesStmt xml:id="noteStmt2">
+                <note n="2.1">sul retro della cartolina, in basso a sinistra dove il mittente ha apposto la firma
+                c'è una piccola stampa raffigurante la Sardegna, contenente le scritte "Cagliari" e "Sardegna".
+                </note>
+                <note n="2.2">sul retro della cartolina, in alto sopra la linea che divide il messaggio dall'indirizzo,
+                c'è stampata una piccola immagine raffigurante un busto di marmo.
+                </note>
+            </notesStmt>
+            <sourceDesc xml:id="sourceDesc2">
+                <bibl>
+                    <title type="custom" resp="#FD" xml:id="title2">Tuffo dallo scoglio</title>
+                    <publisher xml:id="MA">Mario Tognoli</publisher>
+                    <pubPlace>Livorno</pubPlace>
+                </bibl>
+                 <msDesc>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <!-- CODICE IDENTIFICATIVO -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>Vicopisano (PI)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Abitazione privata</repository>
+                    </msIdentifier>
+                      <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>10</height>
+                                        <width>15</width>
+                                    </dimensions>
+                                    <stamp>francobollo - repubblica italiana</stamp>
+                                </support>
+                                <!-- CONSERVAZIONE -->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <!-- NOMI -->
+                <listPerson>
+                    <person xml:id="R">
+                        <persName>
+                            <forename>Roberto</forename>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="G">
+                        <persName>
+                            <forename>Guido</forename>
+                        </persName>
+                        <sex>M</sex>
+                    </person>
+                    <person xml:id="M">
+                        <persName>
+                            <forename>Maura</forename>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="BF">
+                        <persName>
+                            <forename>Barbara</forename>
+                            <surname>Filippi</surname>
+                        </persName>
+                        <sex>F</sex>
+                    </person>
+                    <person xml:id="DF">
+                        <persName>
+                            <forename>Dario</forename>
+                            <surname>Filippi</surname>
+                        </persName>
+                        <sex>M</sex>
+                    </person>       
+                </listPerson>
+                <!-- LUOGHI -->
+                <listPlace>
+                    <place xml:id="CA">
+                        <placeName>Carloforte</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Carloforte</district>
+                        <district type="provincia">Sud Sardegna</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="IG">
+                        <placeName>Iglesias</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Iglesias</district>
+                        <district type="provincia">Carbonia-Iglesias</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="LC">
+                        <placeName>La Conca</placeName>
+                        <settlement type="località">località</settlement>
+                        <district type="comune">Carloforte</district>
+                        <district type="provincia">Sud Sardegna</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="LI">
+                        <placeName>Livorno</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Livorno</district>
+                        <district type="provincia">LI</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="PI">
+                        <placeName>Pisa</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Pisa</district>
+                        <district type="provincia">PI</district>
+                        <country key="N">IT</country>
+                    </place>
+                    <place xml:id="VI">
+                        <placeName>Vicopisano</placeName>
+                        <settlement type="località">città</settlement>
+                        <district type="comune">Vicopisano</district>
+                        <district type="provincia" ref="#PI">PI</district>
+                        <country key="N">IT</country>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#R"><forename>Roberto</forename></persName>
+                    <placeName ref="#CA">Carloforte</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#DF">
+                        <forename>Dario</forename>
+                        <surname>Filippi</surname>
+                    </persName>
+                    <persName ref="#BF">
+                        <forename>Barbara</forename>
+                        <surname>Filippi</surname>
+                    </persName>
+                    <placeName ref="#VI">Vicopisano</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Cartolina</term>
+                    <term>Cartolina Artistica</term>
+                    <term>Tuffo dallo scoglio</term>
+                </keywords>
+            </textClass>
+            <langUsage>
+                <language ident="it-IT">codifica in italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <!-- DEFINIZIONE -->
+    <text type="cartolina" xml:id="Cartolina2">
+         <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte2">
+            <cb n="1"/>
+                <figure>
+                <graphic url="cartoline/cartolina4-1.jpg"/>
+                    <figDesc> L'immagine rappresenta degli scogli in una località sarda; sopra ad essi ci sono dei
+                              bagnanti (di cui 2 seduti e uno in piedi), mentre un altro è immortalato nell'atto di
+                              tuffarsi.
+                    </figDesc>
+                    <head>
+                        <title xml:id="titolo2">Tuffo dallo scoglio</title>
+                    </head>
+                </figure>
+            </div>
+            <div type="retro">
+                <div xml:id="stampa2">
+                    <!-- parte in alto -->
+                    <lb/>
+                    <p>
+                    <s>
+                        <settlement type="city" ref="#CA">CARLOFORTE</settlement>
+                    </s>
+                    </p>
+                    <lb/>
+                    <p>
+                    <s>
+                        <placeName ref="#LC">Fiordo "La conca"</placeName>
+                    </s>
+                    </p>
+                    <lb/>
+                </div>
+                <div type="message" xml:id="messaggio2">
+                    <p>
+                    <s>
+                        <choice>
+                            <sic>Fà</sic>
+                            <corr>Fa</corr>
+                        </choice>
+                        un po' di paura<lb/>vero<pc>?</pc>io non mi<lb/>sono ancora buttato<lb/>
+                        e nemmeno mi butterò<lb/>sono mica scemo<pc>?</pc><lb/>Ciao<pc>!</pc><lb/>Ciao<pc>!</pc><lb/>
+                        Bacioni<lb/>anche a
+                          <persName type="person" ref="#G">Guido</persName><lb/>
+                        e <persName type="person" ref="#M">Maura</persName><lb/>ciao<lb/>
+                    </s>
+                    </p>
+                </div>
+                <div type="signature">
+                    <signed>
+                        <persName type="person" ref="#R">Roberto</persName>
+                    </signed>
+                </div>
+                <!-- PARTE IN BASSO -->
+                <div>
+                   <p>
+                    <s>
+                        <persName type="person" ref="#MA" role="publisher">
+                            <abbr>M.</abbr>
+                            <expan>Mario</expan>
+                        </persName>
+                        Editore <pc>-</pc>
+                        <settlement type="city" ref="#LI">Livorno</settlement>
+                    </s>
+                   </p>
+                    <p>
+                    <s>
+                        <idno>15 CF</idno>
+                    </s>
+                    </p>
+                </div>
+                    <cb n="2"/>
+                    <div type="destination">
+                    <p>
+                        <!-- stamps -->
+                        <stamp type="postmark"> 
+                            <mentioned>
+                                <unclear reason="faded">09016 
+                                    <placeName ref="#IG">IGLESIAS</placeName>
+                                </unclear>
+                            </mentioned>   
+                        </stamp>
+                        <stamp type="postage">francobollo da 120 lire della Repubblica Italiana</stamp> 
+                    </p>
+                    <!-- INDIRIZZO -->
+                    <p xml:id="indirizzo2">
+                        <address>
+                            <lb/><addrLine>Filippi</addrLine>
+                            <lb/><addrLine><persName ref="#DF">Dario</persName>&#38;<persName ref="#BF">Barbara</persName></addrLine>
+                            <lb/><addrLine>Salita dell'orologio</addrLine>
+                            <lb/><addrLine><placeName ref="#VI">Vicopisano</placeName></addrLine>
+                            <lb/><addrLine><placeName ref="#PI">Pisa</placeName></addrLine>
+                        </address>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
